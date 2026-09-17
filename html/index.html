@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PanseheeSelos</title>
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/modal.css">
     
 </head>
 
@@ -14,9 +15,11 @@
         <img id="banner" src="https://yt3.googleusercontent.com/m1SzyKVgKouZbhQJ4CHBOV01Wu49QfwhxVTADuGgWHwV2yLobPOMhm5v6k8PrJx5poqF7fkKP44=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj">
     </header>
 
-    <!-- ###################################################################################### -->
+    <!-- main ###################################################################################### -->
 
     <main>
+
+        <!-- contas ############################################################################## -->
         <section id="usuarios">
             <div>
             <input id="Conta_filtro" type="text">
@@ -55,19 +58,36 @@
 
         </section>
 
-        <!-- ###################################################################################### -->
+        <!-- selos ###################################################################################### -->
 
         <section id="selos">
             <div id="top_selos">
                 <p>selos disponiveis</p>
-                <button id="add_selo">adicionar selo</button>
+                <button id="Add_selo">adicionar selo</button>
             </div>
 
             <div id="D_selos">
                 <img class="selos_prev" src="https://tse3.mm.bing.net/th/id/OIP.AN7e9S2XLNHT-BYaqkxE6wAAAA?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">
             </div>
         </section>
-    </main>
 
+        <!-- modal ################################################################################################ -->
+        
+        <section id="Modal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content" >
+            <span class="close">×</span>
+            <div id="M_conteudo">
+
+            </div>
+            </div>
+        </section>
+
+    </main>
+    
 </body>
+<script type="module" src="../js/construtores.js"></script>
+<script type="module" src="../js/render.js"></script>
+<script type="module" src="../js/modal.js"></script>
 </html>

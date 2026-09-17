@@ -4,6 +4,11 @@ body{
     right: 0%;
 }
 
+main{
+    position: relative;
+    z-index: auto;
+}
+
 header{
     top: 0px;
     right: 0px;
