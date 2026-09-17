@@ -1,0 +1,66 @@
+body{
+    top: 0%;
+    right: 0%;
+}
+
+header{
+    top: 0px;
+    right: 0px;
+}
+
+#banner {
+position: absolute;
+width: 1360px;
+height: 70px;
+left: 31px;
+top: 30px;
+ 
+}
+
+#Conta_filtro{
+position: absolute;
+width: 784px;
+height: 31px;
+left: 31px;
+top: 120px;
+
+}
+
+#Add_conta{
+position: absolute;
+width: 180px;
+height: 31px;
+left: 880px;
+top: 120px;
+
+}
+
+#F_opcoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 784px;
+    height: 16px;
+    left: 31px;
+    top: 158px;
+}
+
+.filtros{
+    background-color: rgb(129, 129, 129);
+    margin-right: 11px;
+    margin-top: 21px;
+    padding: 4px;
+    font-size: 16px;
+}
+
+#D_contas{
+    position: absolute;
+    width: 1029px;
+    height: 798px;
+    left: 31px;
+    top: 200px;
+
+    background: #D9D9D9;
+
+}
